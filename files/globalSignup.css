@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .bxscheckbox-checked-icon {
+    position: absolute;
+    top: 600px;
+    left: 108px;
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
+  }
+  .signup1 {
+    position: absolute;
+    top: 164px;
+    left: 127px;
+    font-size: var(--font-size-xl);
+    display: inline-block;
+    width: 380px;
+    height: 50px;
+  }
+  .signup1,
+  .span {
+    font-weight: 800;
+  }
+  .username {
+    position: absolute;
+    top: 347px;
+    left: 127px;
+    display: inline-block;
+    width: 193px;
+    height: 41px;
+  }
+  .email-id,
+  .password {
+    position: absolute;
+    top: 517px;
+    left: 127px;
+  }
+  .email-id {
+    top: 432px;
+    display: inline-block;
+    width: 148px;
+    height: 41px;
+  }
+  .login-here {
+    text-decoration: underline;
+    color: #E9A6A6;
+  }
+  .already-have-an-container {
+    position: absolute;
+    top: 241px;
+    left: 127px;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    display: inline-block;
+    width: 380px;
+    height: 39px;
+    cursor: pointer;
+  }
+  .signup-child,
+  .signup-inner,
+  .signup-item {
+    border: 0;
+    background-color: var(--color-gainsboro);
+    position: absolute;
+    top: 341px;
+    left: 353px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 53px;
+  }
+  .signup-inner,
+  .signup-item {
+    top: 426px;
+  }
+  .signup-inner {
+    top: 508px;
+  }
+  .rectangle-button,
+  .submit {
+    position: absolute;
+    cursor: pointer;
+  }
+  .rectangle-button {
+    border: 0;
+    padding: 0;
+    background-color: var(--color-lightpink);
+    top: 690px;
+    left: 285px;
+    border-radius: 60px;
+    width: 216px;
+    height: 50px;
+  }
+  .submit {
+    top: 699px;
+    left: 320px;
+    font-size: 27px;
+    display: inline-block;
+    color: var(--color-gray);
+    text-align: center;
+    width: 147px;
+    height: 33px;
+  }
+  .education-signup-page-1 {
+    position: absolute;
+    top: 301px;
+    left: 868px;
+    width: 533px;
+    height: 397px;
+  }
+  .by-signing-up,
+  .or-signup-using {
+    position: absolute;
+    top: 612px;
+    left: 210px;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    display: inline-block;
+    width: 538px;
+    height: 49px;
+  }
+  .or-signup-using {
+    top: 779px;
+    left: 261px;
+    text-align: center;
+    width: 285px;
+    height: 25px;
+  }
+  .line-div,
+  .signup-child1 {
+    position: absolute;
+    top: 790.5px;
+    left: 61.5px;
+    border-top: 1px solid var(--color-lightpink);
+    box-sizing: border-box;
+    width: 224px;
+    height: 1px;
+  }
+  .signup-child1 {
+    left: 506.5px;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 85.61%;
+    width: 86.6%;
+    top: 0;
+    right: 13.4%;
+    bottom: 14.39%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.1;
+  }
+  .d-casual-life-online-shopping-icon {
+    position: absolute;
+    top: 62px;
+    left: 73px;
+    width: 591px;
+    height: 501px;
+    object-fit: cover;
+  }
+  .group {
+    position: absolute;
+    height: 54.98%;
+    width: 46.11%;
+    top: 21.09%;
+    right: -3.68%;
+    bottom: 23.93%;
+    left: 57.57%;
+  }
+  .apple-logo-icon,
+  .facebook-icon,
+  .google-icon {
+    position: absolute;
+    top: 836px;
+    left: 213px;
+    width: 91px;
+    height: 98px;
+    object-fit: cover;
+  }
+  .apple-logo-icon,
+  .facebook-icon {
+    left: 358px;
+  }
+  .apple-logo-icon {
+    left: 503px;
+  }
+  .signup {
+    position: relative;
+    background-color: var(--color-gray);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-lightpink);
+    font-family: var(--font-inter);
+  }
+  

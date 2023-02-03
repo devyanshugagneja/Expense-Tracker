@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="globalSignup.css">
+    <link rel="stylesheet" href="indexSignup.css">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-auth.js"></script>
+  </head>
+  <body>
+    <div class="signup">
+      <div class="signup1">Signup</div>
+
+      <b class="password" type="password">Password</b><b class="email-id">Email ID</b>
+      <div class="already-have-an-container" id="alreadyHaveAn">
+        Already have an account?<a href="login1.html"><span class="login-here"> Login Here</span></a> 
+      </div>
+      <input
+        class="signup-item"
+        type="email"
+        id="signup-email"
+      />
+      <input
+        class="signup-inner"
+        type="password"
+        id="signup-password"
+      />
+      <button class="rectangle-button" id="signup-button"></button>
+      <b class="submit" id="submitText">Submit</b>
+      <div class="education-signup-page-1"></div>
+
+      <div class="group">
+        <img
+          class="vector-icon"
+          alt=""
+          src="https://static.vecteezy.com/system/resources/thumbnails/017/446/178/small/shopping-bags-set-realistic-3d-illustration-render-vector.jpg"
+        />
+        <img
+          class="d-casual-life-online-shopping-icon"
+          alt=""
+          src="https://static.vecteezy.com/system/resources/thumbnails/017/446/178/small/shopping-bags-set-realistic-3d-illustration-render-vector.jpg"
+        />
+      </div>
+    </div>
+    </body>
+    <script>
+      // Initialize Firebase
+      firebase.initializeApp({
+        apiKey: "AIzaSyA2kyvGqvKqgmqDcoQIzVZwyy6ntj6sxeE",
+        authDomain: "expense-tracker-f16dd.firebaseapp.com",
+        projectId: "expense-tracker-f16dd"
+      });
+
+      // Signup button click event
+      document.getElementById("signup-button").addEventListener("click", function() {
+  const email = document.getElementById("signup-email").value;
+  const password = document.getElementById("signup-password").value;
+  firebase.auth().createUserWithEmailAndPassword(email, password)
+    .then(function() {
+      // Show alert message and redirect to main.html if signup is successful
+      alert("You have registered successfully!");
+      window.location.replace("main.html");
+    })
+    .catch(function(error) {
+      console.error(error.message);
+    });
+});
+</script>
+</html>

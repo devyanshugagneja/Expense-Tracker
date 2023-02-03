@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .login-to {
+    font-weight: 800;
+  }
+  .login-to-continue-container {
+    position: absolute;
+    top: 110px;
+    left: 94px;
+    font-size: 60px;
+    display: inline-block;
+    width: 537px;
+    height: 244px;
+  }
+  .e-mail-txt {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .e-mail {
+    position: absolute;
+    top: 470px;
+    left: 94px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 41px;
+  }
+  .dont-have-an,
+  .password {
+    position: absolute;
+    top: 560px;
+    left: 94px;
+    
+  }
+  #dont-have-an{
+    color: #E9A6A6;
+  }
+  .dont-have-an {
+    top: 374px;
+    left: 96px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    display: inline-block;
+    width: 380px;
+    height: 39px;
+    cursor: pointer;
+  }
+  .login-child,
+  .login-item {
+    border: 0;
+    background-color: var(--color-gainsboro);
+    position: absolute;
+    top: 464px;
+    left: 320px;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 53px;
+  }
+  .login-item {
+    top: 551px;
+  }
+  .login-inner,
+  .login1 {
+    position: absolute;
+    cursor: pointer;
+  }
+  .login-inner {
+    border: 0;
+    padding: 0;
+    background-color: var(--color-lightpink-100);
+    top: 690px;
+    left: 285px;
+    border-radius: var(--br-lg);
+    width: 216px;
+    height: 50px;
+  }
+  .login1 {
+    top: 699px;
+    left: 320px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    color: var(--color-gray);
+    text-align: center;
+    width: 147px;
+    height: 33px;
+  }
+  .education-signup-page-1 {
+    position: absolute;
+    top: 274px;
+    left: 818px;
+    width: 533px;
+    height: 397px;
+  }
+  .forgot-password,
+  .or-continue-using {
+    position: absolute;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+  }
+  .or-continue-using {
+    top: 779px;
+    left: 261px;
+    font-size: var(--font-size-base);
+    width: 285px;
+    height: 25px;
+  }
+  .forgot-password {
+    top: 623px;
+    left: 320px;
+    font-size: 15px;
+    color: rgba(233, 166, 166, 0.53);
+    width: 137px;
+    height: 18px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  }
+  .line-div,
+  .login-child1 {
+    position: absolute;
+    top: 790.5px;
+    left: 61.5px;
+    border-top: 1px solid var(--color-lightpink-100);
+    box-sizing: border-box;
+    width: 224px;
+    height: 1px;
+  }
+  .login-child1 {
+    top: 791.5px;
+    left: 519.5px;
+  }
+  .apple-logo-icon,
+  .d-casual-life-card-holder-1-icon,
+  .facebook-icon,
+  .google-icon {
+    position: absolute;
+    top: 844px;
+    left: 198px;
+    width: 91px;
+    height: 98px;
+    object-fit: cover;
+  }
+  .apple-logo-icon,
+  .d-casual-life-card-holder-1-icon,
+  .facebook-icon {
+    left: 343px;
+  }
+  .apple-logo-icon,
+  .d-casual-life-card-holder-1-icon {
+    left: 488px;
+  }
+  .d-casual-life-card-holder-1-icon {
+    top: 196px;
+    left: 818px;
+    width: 724px;
+    height: 626px;
+  }
+  .login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray);
+    width: 1440px;
+    height: 1024px;
+    overflow: hidden;
+  }
+  .login-parent {
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-lightpink-100);
+    font-family: var(--font-inter);
+  }
+  

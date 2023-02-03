@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<scr>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./globalLogin.css" />
+    <link rel="stylesheet" href="./indexLogin.css" />
+    <link rel="stylesheet" href="./login.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-parent">
+      <div class="login">
+        <div class="login-to-continue-container">
+          <span class="login-to">Login to </span
+          ><b>continue tracking your expenses.</b
+          ><span class="login-to">!</span>
+        </div>
+        <div class="e-mail">
+          <span class="e-mail-txt"
+            ><b>E-mail</b><span class="login-to"> </span
+          ></span>
+        </div>
+        <b class="password">Password</b>
+        <div class="dont-have-an" id="dontHaveAn">
+            Don't have an account?<a href="signup1.html">Signup Here</a> 
+        </div>
+        <form>
+          <div class="email-password-container">
+            <input
+              class="login-child"
+              type="email"
+              id="login-email"
+              placeholder="Email"
+            />
+            <input
+              class="login-item"
+              type="password"
+              id="login-password"
+              placeholder="Password"
+            />
+          </div>
+        </form>
+        <button class="login-inner"></button
+        ><b class="login1" id="loginText">Login</b>
+        <div class="education-signup-page-1"></div>
+        
+        
+        <img
+          class="d-casual-life-card-holder-1-icon"
+          alt=""
+          src="https://media.istockphoto.com/id/1239372780/photo/a-pink-credit-card-stands-on-a-platform-among-flying-multicolored-balloons-pastel-living.jpg?s=612x612&w=0&k=20&c=eGwQ7sVyDXSyTS3CYBf7f-r22jRo6fXRUajAMEIdz0g="
+        />
+      </div>
+    </div>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+<script>
+// Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyA2kyvGqvKqgmqDcoQIzVZwyy6ntj6sxeE",
+  authDomain: "expense-tracker-f16dd.firebaseapp.com",
+  projectId: "expense-tracker-f16dd"
+};
+firebase.initializeApp(firebaseConfig);
+
+// Get the input elements and login button
+const loginEmail = document.getElementById("login-email");
+const loginPassword = document.getElementById("login-password");
+const loginBtn = document.getElementById("loginText");
+
+// Add click event listener to login button
+loginBtn.addEventListener("click", e => {
+  // Get email and password values
+  const email = loginEmail.value;
+  const password = loginPassword.value;
+  const auth = firebase.auth();
+
+  // Sign in with email and password
+  auth.signInWithEmailAndPassword(email, password)
+    .then(() => {
+      // Redirect to main.html if login is successful
+      window.location.replace("main.html");
+    })
+    .catch(error => {
+      alert(error.message);
+    });
+});
+</script>
+</html>

@@ -1,0 +1,54 @@
+body{
+    background-color: #1F1D36;
+    }
+.text{
+    color: white;
+}
+#heading{
+    margin-left: 550px;
+    padding-top: 30px;
+}
+#content{
+    margin-left: 485px;
+    font-size: medium;
+}
+.form{
+    margin-left: 510px;
+}
+#login{
+    margin-left: 550px;
+}
+.credentials{
+    margin-right: 660px;
+    border: 2px solid #E9A6A6;
+}
+.button{
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    margin-left: 42px;
+    color: #1F1D36;
+    font-weight: bold;
+    }
+
+#login{
+        background-color: #E9A6A6;
+        border: #E9A6A6 solid 4px;
+        
+    }
+#signup{
+            margin-left: 550px;
+            background-color: #E9A6A6;
+            border: #E9A6A6 solid 4px;
+        }
+    
+#text{
+        margin-left: 520px;
+        font-size: medium;
+    }
+.image{
+    margin-left: 550px;
+    padding-top: 20px;
+}    
+
+

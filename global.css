@@ -1,0 +1,246 @@
+*{
+    background-color: #1F1D36;
+}
+.text{
+color: white;
+}
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  .explogo {
+    position: absolute;
+    top: 39px;
+    left: 39px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 238px;
+    height: 41px;
+  }
+  .screen-1-child,
+  .with-us-you {
+    position: absolute;
+    top: 729px;
+    left: 0;
+    width: 1440px;
+    height: 378px;
+  }
+  .with-us-you {
+    top: 757px;
+    left: 409px;
+    font-size: 55px;
+    display: inline-block;
+    color: #f4e9ff;
+    text-align: center;
+    width: 622px;
+    height: 58px;
+  }
+  .if-you-want,
+  .welcome-to {
+    position: absolute;
+    top: 435px;
+    left: 156px;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 564px;
+    height: 235px;
+  }
+  .welcome-to {
+    top: 200px;
+    left: 149px;
+    width: 217px;
+    height: 45px;
+  }
+  .expense {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .tracker {
+    margin: 0;
+  }
+  .expense-tracker-txt-container {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .expense-tracker {
+    position: absolute;
+    top: 283px;
+    left: 149px;
+    font-size: 85px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 421px;
+    height: 154px;
+  }
+  .screen-1-inner,
+  .screen-1-item {
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    top: 39px;
+    border-radius: var(--br-sm);
+    box-sizing: border-box;
+    width: 150px;
+    height: 40px;
+  }
+  .screen-1-item {
+    border: 1px solid #000;
+    background-color: var(--color-lightpink);
+    left: 982px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .screen-1-inner {
+    border: 2px solid var(--color-lightpink);
+    background-color: var(--color-gray);
+    left: 1147px;
+  }
+  .casual-life-3d-girl-planning-b-icon {
+    position: absolute;
+    top: 171px;
+    left: 790px;
+    width: 593px;
+    height: 482px;
+    object-fit: cover;
+  }
+  .login,
+  .sign-up {
+    color: white;
+    position: absolute;
+    top: 43px;
+    left: 993px;
+    font-size: var(--font-size-xs);
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 33px;
+    cursor: pointer;
+  }
+  .sign-up {
+    left: 1158px;
+    color: var(--color-lightpink);
+    height: 32px;
+  }
+  .male-user-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .profilemenu,
+  .rectangle-div {
+    position: absolute;
+    top: 31px;
+    left: 1325px;
+    width: 58px;
+    height: 57px;
+  }
+  .rectangle-div {
+    top: 893px;
+    left: 67px;
+    border-radius: var(--br-md);
+    background-color: var(--color-thistle);
+    width: 120px;
+    height: 120px;
+  }
+  .shopping-bag-full {
+    position: absolute;
+    top: 902px;
+    left: 73px;
+    width: 108px;
+    height: 102px;
+    object-fit: cover;
+  }
+  .categorize-all-your {
+    color: white;
+    position: absolute;
+    top: 908px;
+    left: 223px;
+    font-weight: 600;
+    color: var(--color-thistle);
+    display: inline-block;
+    width: 268px;
+    height: 90px;
+  }
+  .screen-1-child1 {
+    background-color: #54446C;
+    position: absolute;
+    top: 893px;
+    left: 552px;
+    border-radius: var(--br-md);
+    background-color: var(--color-thistle);
+    width: 120px;
+    height: 120px;
+  }
+  .get-a-monthly,
+  .group-icon {
+    position: absolute;
+    top: 907px;
+    left: 567px;
+    width: 90px;
+    height: 91px;
+    color: white;
+  }
+  .get-a-monthly {
+    top: 902px;
+    left: 703px;
+    font-weight: 600;
+    color: var(--color-thistle);
+    display: inline-block;
+    width: 250px;
+    height: 131px;
+  }
+  .screen-1-child2 {
+    position: absolute;
+    top: 893px;
+    left: 1001px;
+    border-radius: var(--br-md);
+    background-color: var(--color-thistle);
+    width: 120px;
+    height: 120px;
+  }
+  .add-money-at,
+  .screen-1-child3 {
+    position: absolute;
+    top: 907px;
+    left: 1016px;
+    width: 90px;
+    height: 91px;
+    color: white;
+  }
+  .add-money-at {
+    top: 902px;
+    left: 1152px;
+    font-weight: 600;
+    color: var(--color-thistle);
+    display: inline-block;
+    width: 271px;
+    height: 90px;
+  }
+  .screen-1 {
+    position: relative;
+    background-color: var(--color-gray);
+    width: 100%;
+    height: 1107px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  
